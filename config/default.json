@@ -1,0 +1,16 @@
+{
+  "port": "3100",
+  "mongodbUrl": "mongodb+srv://shreyasbabshet:admin@ecommerce.yvp8rtk.mongodb.net/?retryWrites=true&w=majority",
+  "jwtSecret": "secret@12345",
+  "adminSecretToken": "admin@123",
+  "emailService": {
+    "testDomain": "sandbox9e9f8bc99f2a45e8a30adccd4aae4a66.mailgun.org",
+    "privateApiKey": "6a78adf1a3e2b13bc915373d9122c88e-1900dca6-f44dc014",
+    "publicApiKey": "pubkey-88ace76f045da80b3931ac3b7eac3d26",
+    "emailTemplate": {
+      "forgotPassword": "forgot-password",
+      "verifyEmail": "verify-email",
+      "orderPlaced": "order-placed"
+    }
+  }
+}
